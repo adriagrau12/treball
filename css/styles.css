@@ -1,0 +1,84 @@
+a:link {
+    color: rgb(255, 0, 43);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  <!--
+  a:visited {
+    color: rgb(255, 0, 43);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  -->
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  p {
+    clear: left;
+}
+
+img {
+
+    width: 10%;
+    float: left;
+    
+}
+
+p.centrado-negrita {
+text-align: center;
+font-weight: bold;
+font-size: 80%; 
+font-family: Arial, Helvetica, sans-serif;
+}   
+
+
+h1 {
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;  
+ }
+
+
+
+nav ul {
+    clear: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+
+}
+
+nav a {
+    text-decoration: none;
+    color: red;
+    padding: 5px 10px;
+    text-decoration: underline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+
+
+}
+
+nav li:not(:last-child):after {
+    content: " | ";
+    color: rgb(2, 2, 2);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+
+}
+
